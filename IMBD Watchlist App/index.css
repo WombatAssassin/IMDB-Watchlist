@@ -1,0 +1,189 @@
+/* MAIN */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #212121;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: white;
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+/* GENERAL TEXT */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: grey;
+  box-sizing: border-box;
+  min-height: 208px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/2x19_BTS5.jpg");
+  background-size: cover;
+}
+
+.main-text {
+  font-size: 2.625rem;
+  font-weight: 800;
+  text-shadow: black 2px 2px 5px;
+}
+
+.sub-text {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-shadow: black 2px 2px 5px;
+}
+
+/* SEARCH STUFF */
+
+.search-area {
+  display: flex;
+  min-width: 462px;
+  transform: translateY(-50%);
+  justify-self: flex-start;
+}
+
+.search-bar,
+.search-button {
+  border: #dfdddd 1.5px solid;
+  border-radius: 5px;
+}
+.search-bar {
+  min-width: 80%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* .search-bar::before {
+    background-image: url("/images/search.png")
+} */
+
+.search-button {
+  min-width: 20%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #f9fafb;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* MAIN BODY */
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-weight: 700;
+  color: #dfdddd;
+  min-height: 100vh;
+}
+
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.middle-content > a {
+  color: black;
+}
+
+.middle-content > img {
+  height: 60px;
+}
+
+.grey-fade {
+  color: #dfdddd;
+}
+
+.search-area {
+  justify-self: start;
+}
+
+/* FILM TEMPLATE */
+
+.film-holder-area {
+  display: flex;
+  align-items: center;
+  width: 461px;
+  border-bottom: 1.5px solid #e5e7eb;
+  padding: 15px;
+}
+
+.film-holder-area-img > img {
+  width: 99px;
+  height: 147.41px;
+  border-radius: 5px;
+  background-image: url("images/reels.png");
+  background-size: 99px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.film-holder-area-img {
+  align-self: center;
+  margin-right: 15px;
+}
+
+.film-holder-area-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.film-holder-area-content > h3 {
+  color: black;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.film-holder-area-content > p {
+  color: #111827;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.film-holder-area-content > button {
+  color: #111827;
+  font-size: 0.75rem;
+  background: none;
+  border: none;
+}
+
+.film-holder-area-content > button:hover {
+  cursor: pointer;
+}
+
+.description > p {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
